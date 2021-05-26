@@ -1,0 +1,1983 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6cfe87a79df2457f92a6aacf51353fed {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6cfe87a79df2457f92a6aacf51353fed" ></div>
+        
+</body>
+<script>    
+    
+            var map_6cfe87a79df2457f92a6aacf51353fed = L.map(
+                "map_6cfe87a79df2457f92a6aacf51353fed",
+                {
+                    center: [35.35038532, 129.0235715],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    zoomSize: 12,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a164164849054378a4a9ff6596940723 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+            var marker_b575995e69fe436995b9a3dc52f8b3e5 = L.marker(
+                [35.35038532, 129.0235715],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_9127179ee2b9490dbaf3f7f1ac27003e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd7c02b67fab41eb9f668461ff6bce24 = $(`<div id="html_bd7c02b67fab41eb9f668461ff6bce24" style="width: 100.0%; height: 100.0%;">춘추근린공원</div>`)[0];
+            popup_9127179ee2b9490dbaf3f7f1ac27003e.setContent(html_bd7c02b67fab41eb9f668461ff6bce24);
+        
+
+        marker_b575995e69fe436995b9a3dc52f8b3e5.bindPopup(popup_9127179ee2b9490dbaf3f7f1ac27003e)
+        ;
+
+        
+    
+    
+            var marker_1b73d5c849fe4c5689028513599e6cbd = L.marker(
+                [35.34578884, 129.0382881],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_703d873c660e410389588004f2553571 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98dd9cf385fa4adca1a4bbf116c4e0f0 = $(`<div id="html_98dd9cf385fa4adca1a4bbf116c4e0f0" style="width: 100.0%; height: 100.0%;">신북안 어린이공원</div>`)[0];
+            popup_703d873c660e410389588004f2553571.setContent(html_98dd9cf385fa4adca1a4bbf116c4e0f0);
+        
+
+        marker_1b73d5c849fe4c5689028513599e6cbd.bindPopup(popup_703d873c660e410389588004f2553571)
+        ;
+
+        
+    
+    
+            var marker_fe894e5a81a0444286947669988e80c8 = L.marker(
+                [35.37079794, 129.0501856],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_27378162f7ca4146a692ee56bb8c5164 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffcb83322ad440cd9dbca5c989a34d3a = $(`<div id="html_ffcb83322ad440cd9dbca5c989a34d3a" style="width: 100.0%; height: 100.0%;">산막 어린이공원</div>`)[0];
+            popup_27378162f7ca4146a692ee56bb8c5164.setContent(html_ffcb83322ad440cd9dbca5c989a34d3a);
+        
+
+        marker_fe894e5a81a0444286947669988e80c8.bindPopup(popup_27378162f7ca4146a692ee56bb8c5164)
+        ;
+
+        
+    
+    
+            var marker_17b58a3f9d654465beed02720bdf807e = L.marker(
+                [35.36060245, 129.0336036],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_8eae9eda303e4c9a808dd89e38769b74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0fe8fd6c1e47487080e9c879365ecf2d = $(`<div id="html_0fe8fd6c1e47487080e9c879365ecf2d" style="width: 100.0%; height: 100.0%;">유산근린공원</div>`)[0];
+            popup_8eae9eda303e4c9a808dd89e38769b74.setContent(html_0fe8fd6c1e47487080e9c879365ecf2d);
+        
+
+        marker_17b58a3f9d654465beed02720bdf807e.bindPopup(popup_8eae9eda303e4c9a808dd89e38769b74)
+        ;
+
+        
+    
+    
+            var marker_eb97a58d41ac49eab6c3c64e3a2c8cc0 = L.marker(
+                [35.32007189, 128.9933958],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_35e602bb1cde44efbaf68327a36e3fca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a201b83968a1400c8a240a84a98bea92 = $(`<div id="html_a201b83968a1400c8a240a84a98bea92" style="width: 100.0%; height: 100.0%;">가촌신기 어린이공원</div>`)[0];
+            popup_35e602bb1cde44efbaf68327a36e3fca.setContent(html_a201b83968a1400c8a240a84a98bea92);
+        
+
+        marker_eb97a58d41ac49eab6c3c64e3a2c8cc0.bindPopup(popup_35e602bb1cde44efbaf68327a36e3fca)
+        ;
+
+        
+    
+    
+            var marker_a2186358561e4109964ec19452571541 = L.marker(
+                [35.31713155, 129.0312458],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_9cb32c91087e4964879ce48b26a9c0b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef62ab24caf444a89b9388149ac6668d = $(`<div id="html_ef62ab24caf444a89b9388149ac6668d" style="width: 100.0%; height: 100.0%;">곡리 어린이공원</div>`)[0];
+            popup_9cb32c91087e4964879ce48b26a9c0b8.setContent(html_ef62ab24caf444a89b9388149ac6668d);
+        
+
+        marker_a2186358561e4109964ec19452571541.bindPopup(popup_9cb32c91087e4964879ce48b26a9c0b8)
+        ;
+
+        
+    
+    
+            var marker_916433c2dbde4eb9985665ea4ab59dfc = L.marker(
+                [35.33905652, 129.0371348],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_166f8e5d9f8c45bb9432c50fe24b6011 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f957aaa736f42e5a1b79098deb94795 = $(`<div id="html_1f957aaa736f42e5a1b79098deb94795" style="width: 100.0%; height: 100.0%;">옹기골 어린이공원</div>`)[0];
+            popup_166f8e5d9f8c45bb9432c50fe24b6011.setContent(html_1f957aaa736f42e5a1b79098deb94795);
+        
+
+        marker_916433c2dbde4eb9985665ea4ab59dfc.bindPopup(popup_166f8e5d9f8c45bb9432c50fe24b6011)
+        ;
+
+        
+    
+    
+            var marker_20c8ff566bac4eacac5a3c365fc662d9 = L.marker(
+                [35.33600773, 129.0363368],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_9b22ffef101d448089b96edf839db57c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed31e3fc81ed4959b3d815cef20352d7 = $(`<div id="html_ed31e3fc81ed4959b3d815cef20352d7" style="width: 100.0%; height: 100.0%;">옥곡 어린이공원</div>`)[0];
+            popup_9b22ffef101d448089b96edf839db57c.setContent(html_ed31e3fc81ed4959b3d815cef20352d7);
+        
+
+        marker_20c8ff566bac4eacac5a3c365fc662d9.bindPopup(popup_9b22ffef101d448089b96edf839db57c)
+        ;
+
+        
+    
+    
+            var marker_99a5defe7557402e8f2369d11efe3662 = L.marker(
+                [35.34047714, 129.0354479],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_af7e3431856c4a8ca41be4b3a977e33f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22aec006f7a44cc982805b8988e023b9 = $(`<div id="html_22aec006f7a44cc982805b8988e023b9" style="width: 100.0%; height: 100.0%;">서일동 어린이공원</div>`)[0];
+            popup_af7e3431856c4a8ca41be4b3a977e33f.setContent(html_22aec006f7a44cc982805b8988e023b9);
+        
+
+        marker_99a5defe7557402e8f2369d11efe3662.bindPopup(popup_af7e3431856c4a8ca41be4b3a977e33f)
+        ;
+
+        
+    
+    
+            var marker_3dd357fdb2ca49278ae02d624940d555 = L.marker(
+                [35.49404179, 129.082583],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_84f7a119f8cf43f0900c8cf5e006113e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81bb2755a8ec48739875900bcd6e3a4e = $(`<div id="html_81bb2755a8ec48739875900bcd6e3a4e" style="width: 100.0%; height: 100.0%;">땅바우 어린이공원</div>`)[0];
+            popup_84f7a119f8cf43f0900c8cf5e006113e.setContent(html_81bb2755a8ec48739875900bcd6e3a4e);
+        
+
+        marker_3dd357fdb2ca49278ae02d624940d555.bindPopup(popup_84f7a119f8cf43f0900c8cf5e006113e)
+        ;
+
+        
+    
+    
+            var marker_d466acdd0289430886e0abe83a19e1b7 = L.marker(
+                [35.32040837, 128.9919372],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_f64ce6de4e7943c38229ea8e1fdd18b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe1027b675784ec691e3d1f81075001c = $(`<div id="html_fe1027b675784ec691e3d1f81075001c" style="width: 100.0%; height: 100.0%;">새터 어린이공원</div>`)[0];
+            popup_f64ce6de4e7943c38229ea8e1fdd18b3.setContent(html_fe1027b675784ec691e3d1f81075001c);
+        
+
+        marker_d466acdd0289430886e0abe83a19e1b7.bindPopup(popup_f64ce6de4e7943c38229ea8e1fdd18b3)
+        ;
+
+        
+    
+    
+            var marker_22bf60a124c045ff89fd158d6f6f79ff = L.marker(
+                [35.41600201, 129.0593611],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_1871c4e7c8164cb283c9e6ba5774a7c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21914d15ef504e459374b09512b4dabc = $(`<div id="html_21914d15ef504e459374b09512b4dabc" style="width: 100.0%; height: 100.0%;">꿈샘 어린이공원</div>`)[0];
+            popup_1871c4e7c8164cb283c9e6ba5774a7c2.setContent(html_21914d15ef504e459374b09512b4dabc);
+        
+
+        marker_22bf60a124c045ff89fd158d6f6f79ff.bindPopup(popup_1871c4e7c8164cb283c9e6ba5774a7c2)
+        ;
+
+        
+    
+    
+            var marker_b404c10d4999418d860427d854e08199 = L.marker(
+                [35.41330769, 129.0572228],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_201af978d6ae4462b82c96f486eb4c01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb5d76ab1e3843559bcad7c74c823069 = $(`<div id="html_cb5d76ab1e3843559bcad7c74c823069" style="width: 100.0%; height: 100.0%;">여울 어린이공원</div>`)[0];
+            popup_201af978d6ae4462b82c96f486eb4c01.setContent(html_cb5d76ab1e3843559bcad7c74c823069);
+        
+
+        marker_b404c10d4999418d860427d854e08199.bindPopup(popup_201af978d6ae4462b82c96f486eb4c01)
+        ;
+
+        
+    
+    
+            var marker_dbc6faaa452d419a9554cf435648ec13 = L.marker(
+                [35.3553885, 129.0476643],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_6b63c5addccd4812a64730235199c158 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6791ed20e1d24337abfbb48272f3579f = $(`<div id="html_6791ed20e1d24337abfbb48272f3579f" style="width: 100.0%; height: 100.0%;">빛솔 어린이공원</div>`)[0];
+            popup_6b63c5addccd4812a64730235199c158.setContent(html_6791ed20e1d24337abfbb48272f3579f);
+        
+
+        marker_dbc6faaa452d419a9554cf435648ec13.bindPopup(popup_6b63c5addccd4812a64730235199c158)
+        ;
+
+        
+    
+    
+            var marker_70c08041e4d5488fb00c7d8f7a612a50 = L.marker(
+                [35.35404476, 129.0477459],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_90b7fdd01ebf4b5287322936187c117a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08c097844c0e431aa3203826290c7be6 = $(`<div id="html_08c097844c0e431aa3203826290c7be6" style="width: 100.0%; height: 100.0%;">빛길 어린이공원</div>`)[0];
+            popup_90b7fdd01ebf4b5287322936187c117a.setContent(html_08c097844c0e431aa3203826290c7be6);
+        
+
+        marker_70c08041e4d5488fb00c7d8f7a612a50.bindPopup(popup_90b7fdd01ebf4b5287322936187c117a)
+        ;
+
+        
+    
+    
+            var marker_c05939a67bc545c38ab80c9f0bdec374 = L.marker(
+                [35.315332, 129.030871],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_360275c6f7ab4722891631f5ce4e8a21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_975b75d078494615a89a932f481d32e3 = $(`<div id="html_975b75d078494615a89a932f481d32e3" style="width: 100.0%; height: 100.0%;">해강 어린이공원</div>`)[0];
+            popup_360275c6f7ab4722891631f5ce4e8a21.setContent(html_975b75d078494615a89a932f481d32e3);
+        
+
+        marker_c05939a67bc545c38ab80c9f0bdec374.bindPopup(popup_360275c6f7ab4722891631f5ce4e8a21)
+        ;
+
+        
+    
+    
+            var marker_4e1779bbcd9541658b174360b0dc6041 = L.marker(
+                [35.36305073, 129.049667],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_f38c7b186cfb4b0b8d7cfc697f50ea11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eee4c829f08d4c5696b738c55aab0b74 = $(`<div id="html_eee4c829f08d4c5696b738c55aab0b74" style="width: 100.0%; height: 100.0%;">북정 근린공원</div>`)[0];
+            popup_f38c7b186cfb4b0b8d7cfc697f50ea11.setContent(html_eee4c829f08d4c5696b738c55aab0b74);
+        
+
+        marker_4e1779bbcd9541658b174360b0dc6041.bindPopup(popup_f38c7b186cfb4b0b8d7cfc697f50ea11)
+        ;
+
+        
+    
+    
+            var marker_f2952f7169b34691b062a8446f6fb95f = L.marker(
+                [35.36467508, 129.0484116],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_e9f2b8a7123c4f5d9654641e3eb5f7d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31fb645035114fc695e94b43151ae7a5 = $(`<div id="html_31fb645035114fc695e94b43151ae7a5" style="width: 100.0%; height: 100.0%;">못안 어린이공원</div>`)[0];
+            popup_e9f2b8a7123c4f5d9654641e3eb5f7d0.setContent(html_31fb645035114fc695e94b43151ae7a5);
+        
+
+        marker_f2952f7169b34691b062a8446f6fb95f.bindPopup(popup_e9f2b8a7123c4f5d9654641e3eb5f7d0)
+        ;
+
+        
+    
+    
+            var marker_c70f81ddf3ad4c128b722e5d8cd322c0 = L.marker(
+                [35.36138318, 129.0486331],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_bf712894ad6c45489c0653ba0480094e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21d9fcb3894e4a7f97322b2d95a1b801 = $(`<div id="html_21d9fcb3894e4a7f97322b2d95a1b801" style="width: 100.0%; height: 100.0%;">삼성 어린이공원</div>`)[0];
+            popup_bf712894ad6c45489c0653ba0480094e.setContent(html_21d9fcb3894e4a7f97322b2d95a1b801);
+        
+
+        marker_c70f81ddf3ad4c128b722e5d8cd322c0.bindPopup(popup_bf712894ad6c45489c0653ba0480094e)
+        ;
+
+        
+    
+    
+            var marker_31692fc4175c42fcbbbc1c7a74a0f02c = L.marker(
+                [35.35954976, 129.0480152],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_feca9b1654204635b860e773fc41a8cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c5ecb9e8a074a3bbe7d5f4c41f32725 = $(`<div id="html_7c5ecb9e8a074a3bbe7d5f4c41f32725" style="width: 100.0%; height: 100.0%;">중각단 어린이공원</div>`)[0];
+            popup_feca9b1654204635b860e773fc41a8cb.setContent(html_7c5ecb9e8a074a3bbe7d5f4c41f32725);
+        
+
+        marker_31692fc4175c42fcbbbc1c7a74a0f02c.bindPopup(popup_feca9b1654204635b860e773fc41a8cb)
+        ;
+
+        
+    
+    
+            var marker_7d8904a9274a452aa7f686709190eb8f = L.marker(
+                [35.32333128, 128.9938317],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_d4ba813be1504b4cba8773995ebba868 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_478d2c23c4c440bbb183fd2c8a470533 = $(`<div id="html_478d2c23c4c440bbb183fd2c8a470533" style="width: 100.0%; height: 100.0%;">가촌 어린이공원</div>`)[0];
+            popup_d4ba813be1504b4cba8773995ebba868.setContent(html_478d2c23c4c440bbb183fd2c8a470533);
+        
+
+        marker_7d8904a9274a452aa7f686709190eb8f.bindPopup(popup_d4ba813be1504b4cba8773995ebba868)
+        ;
+
+        
+    
+    
+            var marker_303ae9e72e4e4aa89cd64e4794c62f26 = L.marker(
+                [35.34914014, 129.0384961],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_f179caeb920b4bdd844b52fb68e97739 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b8eb191263842f6986d66cb1a303177 = $(`<div id="html_0b8eb191263842f6986d66cb1a303177" style="width: 100.0%; height: 100.0%;">서북안 어린이공원</div>`)[0];
+            popup_f179caeb920b4bdd844b52fb68e97739.setContent(html_0b8eb191263842f6986d66cb1a303177);
+        
+
+        marker_303ae9e72e4e4aa89cd64e4794c62f26.bindPopup(popup_f179caeb920b4bdd844b52fb68e97739)
+        ;
+
+        
+    
+    
+            var marker_9ea0ccf2242f4a9b9e9de0de50527bdc = L.marker(
+                [35.35514886, 129.0399374],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_9331798f240b4d60b8a47ca4603c7f2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ddfc673c2cd3467b9d8006f61ed30fc9 = $(`<div id="html_ddfc673c2cd3467b9d8006f61ed30fc9" style="width: 100.0%; height: 100.0%;">서중동 어린이공원</div>`)[0];
+            popup_9331798f240b4d60b8a47ca4603c7f2a.setContent(html_ddfc673c2cd3467b9d8006f61ed30fc9);
+        
+
+        marker_9ea0ccf2242f4a9b9e9de0de50527bdc.bindPopup(popup_9331798f240b4d60b8a47ca4603c7f2a)
+        ;
+
+        
+    
+    
+            var marker_0dc9ab87b4a641f88849c10f982a7091 = L.marker(
+                [35.35275642, 129.0393346],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_63d486aab61e4b67a3a7cb69ebfa6554 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e5a2d9daf474d05912c725dd63c2e73 = $(`<div id="html_6e5a2d9daf474d05912c725dd63c2e73" style="width: 100.0%; height: 100.0%;">중동 어린이공원</div>`)[0];
+            popup_63d486aab61e4b67a3a7cb69ebfa6554.setContent(html_6e5a2d9daf474d05912c725dd63c2e73);
+        
+
+        marker_0dc9ab87b4a641f88849c10f982a7091.bindPopup(popup_63d486aab61e4b67a3a7cb69ebfa6554)
+        ;
+
+        
+    
+    
+            var marker_88475e299bdc4777adf8187ac76df909 = L.marker(
+                [35.35155167, 129.0400233],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_54ed0a43e2ca497c9835a6af5499df1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5ef848043c447d0a1d7316f8e460d89 = $(`<div id="html_e5ef848043c447d0a1d7316f8e460d89" style="width: 100.0%; height: 100.0%;">한마음 어린이공원</div>`)[0];
+            popup_54ed0a43e2ca497c9835a6af5499df1a.setContent(html_e5ef848043c447d0a1d7316f8e460d89);
+        
+
+        marker_88475e299bdc4777adf8187ac76df909.bindPopup(popup_54ed0a43e2ca497c9835a6af5499df1a)
+        ;
+
+        
+    
+    
+            var marker_18b0fab157224ba997d205aed4e86a63 = L.marker(
+                [35.49350351, 129.0883068],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_697d8781a7fa4d9e91426e77e00fe7bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2e78f882beb4464a70c63371d4a2a65 = $(`<div id="html_c2e78f882beb4464a70c63371d4a2a65" style="width: 100.0%; height: 100.0%;">동부 어린이공원</div>`)[0];
+            popup_697d8781a7fa4d9e91426e77e00fe7bd.setContent(html_c2e78f882beb4464a70c63371d4a2a65);
+        
+
+        marker_18b0fab157224ba997d205aed4e86a63.bindPopup(popup_697d8781a7fa4d9e91426e77e00fe7bd)
+        ;
+
+        
+    
+    
+            var marker_b28a4968e2de41148eba24c54dc884d1 = L.marker(
+                [35.49411763, 129.085174],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_1738dbfd03b047f2b2a14d5009037661 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90edce2cd3c046b3b4ab6299ea2e7e14 = $(`<div id="html_90edce2cd3c046b3b4ab6299ea2e7e14" style="width: 100.0%; height: 100.0%;">북부 어린이공원</div>`)[0];
+            popup_1738dbfd03b047f2b2a14d5009037661.setContent(html_90edce2cd3c046b3b4ab6299ea2e7e14);
+        
+
+        marker_b28a4968e2de41148eba24c54dc884d1.bindPopup(popup_1738dbfd03b047f2b2a14d5009037661)
+        ;
+
+        
+    
+    
+            var marker_5fe69d7cbfdf4fdead2826118ca14179 = L.marker(
+                [35.31306417, 129.031502],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_8df11d2733864a36bd12fd2786e5d710 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afb36f33432245ea9633597697164d7f = $(`<div id="html_afb36f33432245ea9633597697164d7f" style="width: 100.0%; height: 100.0%;">한신 어린이공원</div>`)[0];
+            popup_8df11d2733864a36bd12fd2786e5d710.setContent(html_afb36f33432245ea9633597697164d7f);
+        
+
+        marker_5fe69d7cbfdf4fdead2826118ca14179.bindPopup(popup_8df11d2733864a36bd12fd2786e5d710)
+        ;
+
+        
+    
+    
+            var marker_b9e1a091a0bd4617a1bb715c1eb34b6e = L.marker(
+                [35.30914642, 129.029011],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_3e91bf6abfe244258659ee7185f57032 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23cf708b58d640cab01b66b19e33d050 = $(`<div id="html_23cf708b58d640cab01b66b19e33d050" style="width: 100.0%; height: 100.0%;">은행나무어린이공원(석산어린이공원)</div>`)[0];
+            popup_3e91bf6abfe244258659ee7185f57032.setContent(html_23cf708b58d640cab01b66b19e33d050);
+        
+
+        marker_b9e1a091a0bd4617a1bb715c1eb34b6e.bindPopup(popup_3e91bf6abfe244258659ee7185f57032)
+        ;
+
+        
+    
+    
+            var marker_7bc0614d1710499895a3262d483d2570 = L.marker(
+                [35.30699132, 129.028049],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_d77956e7894947b1843427aceff13cc1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a178933c6fc4b6a88dff36052ddcc45 = $(`<div id="html_0a178933c6fc4b6a88dff36052ddcc45" style="width: 100.0%; height: 100.0%;">금산날뜰 어린이공원</div>`)[0];
+            popup_d77956e7894947b1843427aceff13cc1.setContent(html_0a178933c6fc4b6a88dff36052ddcc45);
+        
+
+        marker_7bc0614d1710499895a3262d483d2570.bindPopup(popup_d77956e7894947b1843427aceff13cc1)
+        ;
+
+        
+    
+    
+            var marker_beb9e45777a5452f9baca04b6b673d3f = L.marker(
+                [35.35862822, 129.0409724],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_4614e76f904348488cf79bf779e00e6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f87ffaeb4c394acf81f2708803446059 = $(`<div id="html_f87ffaeb4c394acf81f2708803446059" style="width: 100.0%; height: 100.0%;">메타 어린이공원</div>`)[0];
+            popup_4614e76f904348488cf79bf779e00e6a.setContent(html_f87ffaeb4c394acf81f2708803446059);
+        
+
+        marker_beb9e45777a5452f9baca04b6b673d3f.bindPopup(popup_4614e76f904348488cf79bf779e00e6a)
+        ;
+
+        
+    
+    
+            var marker_3d61c6ec110043d8925d1c5ba1041674 = L.marker(
+                [35.35612991, 129.0411493],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_4dcf2522134b492ea76c0108a2a37a16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81385b1d9c7a4068b16911b3236aae16 = $(`<div id="html_81385b1d9c7a4068b16911b3236aae16" style="width: 100.0%; height: 100.0%;">마로니에 어린이공원</div>`)[0];
+            popup_4dcf2522134b492ea76c0108a2a37a16.setContent(html_81385b1d9c7a4068b16911b3236aae16);
+        
+
+        marker_3d61c6ec110043d8925d1c5ba1041674.bindPopup(popup_4dcf2522134b492ea76c0108a2a37a16)
+        ;
+
+        
+    
+    
+            var marker_5c8a16f55eba452389359581d223f10f = L.marker(
+                [35.35594526, 129.0437436],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_2e6de0e8313a4a69a946ad04ccba2191 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_424627dcd7214febb6e56e19bd052eeb = $(`<div id="html_424627dcd7214febb6e56e19bd052eeb" style="width: 100.0%; height: 100.0%;">신기당산 어린이공원</div>`)[0];
+            popup_2e6de0e8313a4a69a946ad04ccba2191.setContent(html_424627dcd7214febb6e56e19bd052eeb);
+        
+
+        marker_5c8a16f55eba452389359581d223f10f.bindPopup(popup_2e6de0e8313a4a69a946ad04ccba2191)
+        ;
+
+        
+    
+    
+            var marker_5bf6693fd84d49f9949991c3ecd4e65c = L.marker(
+                [35.34805558, 129.0204955],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_00d146fe16034136bd7ea70f7f5b9b0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f95eb3360154608bf72610978d77d72 = $(`<div id="html_2f95eb3360154608bf72610978d77d72" style="width: 100.0%; height: 100.0%;">교동 어린이공원</div>`)[0];
+            popup_00d146fe16034136bd7ea70f7f5b9b0e.setContent(html_2f95eb3360154608bf72610978d77d72);
+        
+
+        marker_5bf6693fd84d49f9949991c3ecd4e65c.bindPopup(popup_00d146fe16034136bd7ea70f7f5b9b0e)
+        ;
+
+        
+    
+    
+            var marker_0d14a9ecf3e04e6c8218c0beca10d0c1 = L.marker(
+                [35.39166544, 129.0531753],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_f1381c0b77554445975ca6c3bbd021cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf0bee8522814fdc90fd14cea2ff0111 = $(`<div id="html_bf0bee8522814fdc90fd14cea2ff0111" style="width: 100.0%; height: 100.0%;">대석 어린이공원</div>`)[0];
+            popup_f1381c0b77554445975ca6c3bbd021cc.setContent(html_bf0bee8522814fdc90fd14cea2ff0111);
+        
+
+        marker_0d14a9ecf3e04e6c8218c0beca10d0c1.bindPopup(popup_f1381c0b77554445975ca6c3bbd021cc)
+        ;
+
+        
+    
+    
+            var marker_499fad0824034aa2b69e125fb51a9cf0 = L.marker(
+                [35.33204481, 129.0307095],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_55e569fefec64bc29017bea4268ed7de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75b008dddb924d38aa902aa9d1e8391b = $(`<div id="html_75b008dddb924d38aa902aa9d1e8391b" style="width: 100.0%; height: 100.0%;">삽량 근린공원</div>`)[0];
+            popup_55e569fefec64bc29017bea4268ed7de.setContent(html_75b008dddb924d38aa902aa9d1e8391b);
+        
+
+        marker_499fad0824034aa2b69e125fb51a9cf0.bindPopup(popup_55e569fefec64bc29017bea4268ed7de)
+        ;
+
+        
+    
+    
+            var marker_9b439ce4f1d0415a86727417b17d1c1e = L.marker(
+                [35.34308273, 129.0332701],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_0dda09f319944ee3be60f678e431e140 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ebb7c701ccb4b199fffc394391b2d93 = $(`<div id="html_0ebb7c701ccb4b199fffc394391b2d93" style="width: 100.0%; height: 100.0%;">양주 근린공원</div>`)[0];
+            popup_0dda09f319944ee3be60f678e431e140.setContent(html_0ebb7c701ccb4b199fffc394391b2d93);
+        
+
+        marker_9b439ce4f1d0415a86727417b17d1c1e.bindPopup(popup_0dda09f319944ee3be60f678e431e140)
+        ;
+
+        
+    
+    
+            var marker_08a3b59050bc43f196a879c33e5a2ec0 = L.marker(
+                [35.33149787, 129.0261378],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_44ec550195794148a0288ff22536aecb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2ce2edc66074066a3678af307576e61 = $(`<div id="html_d2ce2edc66074066a3678af307576e61" style="width: 100.0%; height: 100.0%;">남부 어린이공원</div>`)[0];
+            popup_44ec550195794148a0288ff22536aecb.setContent(html_d2ce2edc66074066a3678af307576e61);
+        
+
+        marker_08a3b59050bc43f196a879c33e5a2ec0.bindPopup(popup_44ec550195794148a0288ff22536aecb)
+        ;
+
+        
+    
+    
+            var marker_e9aff31f321d43f487411a28cf093e72 = L.marker(
+                [35.33642507, 129.0328662],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_76ddf9dff1954cd183cfe853c0bde27a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64d89012cce7477389d2b35f41bc6c91 = $(`<div id="html_64d89012cce7477389d2b35f41bc6c91" style="width: 100.0%; height: 100.0%;">황산 어린이공원</div>`)[0];
+            popup_76ddf9dff1954cd183cfe853c0bde27a.setContent(html_64d89012cce7477389d2b35f41bc6c91);
+        
+
+        marker_e9aff31f321d43f487411a28cf093e72.bindPopup(popup_76ddf9dff1954cd183cfe853c0bde27a)
+        ;
+
+        
+    
+    
+            var marker_e85d553db98a4d1497d7d18eee6d1be8 = L.marker(
+                [35.34010321, 129.031747],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_23674ff996344d49943f267c64b4178c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bee27f6acd14279bd29b812267a18ee = $(`<div id="html_0bee27f6acd14279bd29b812267a18ee" style="width: 100.0%; height: 100.0%;">중앙 어린이공원</div>`)[0];
+            popup_23674ff996344d49943f267c64b4178c.setContent(html_0bee27f6acd14279bd29b812267a18ee);
+        
+
+        marker_e85d553db98a4d1497d7d18eee6d1be8.bindPopup(popup_23674ff996344d49943f267c64b4178c)
+        ;
+
+        
+    
+    
+            var marker_10d38e93fea641d2a626253bc1f8f033 = L.marker(
+                [35.35794828, 129.042471],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_275f25a99a2a40f3a5a09279d98f863d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e26e0494e1e407ca4d6b42452d64ace = $(`<div id="html_0e26e0494e1e407ca4d6b42452d64ace" style="width: 100.0%; height: 100.0%;">느티나무 어린이공원</div>`)[0];
+            popup_275f25a99a2a40f3a5a09279d98f863d.setContent(html_0e26e0494e1e407ca4d6b42452d64ace);
+        
+
+        marker_10d38e93fea641d2a626253bc1f8f033.bindPopup(popup_275f25a99a2a40f3a5a09279d98f863d)
+        ;
+
+        
+    
+    
+            var marker_4149cc2f8bc64bd3bb31533d6dc02593 = L.marker(
+                [35.3294919, 128.9998687],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_1c4fc412644a47b19034dcdf7817b185 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e52b6d14731d410688c37a77ff8156d4 = $(`<div id="html_e52b6d14731d410688c37a77ff8156d4" style="width: 100.0%; height: 100.0%;">범어 근린공원</div>`)[0];
+            popup_1c4fc412644a47b19034dcdf7817b185.setContent(html_e52b6d14731d410688c37a77ff8156d4);
+        
+
+        marker_4149cc2f8bc64bd3bb31533d6dc02593.bindPopup(popup_1c4fc412644a47b19034dcdf7817b185)
+        ;
+
+        
+    
+    
+            var marker_03b2460b25b64603aeed09d5c75d6b22 = L.marker(
+                [35.33466543, 129.0074979],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_6a6acc6f3a26445cb0a3bcfba57c1e7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf0dcc5499374550bce52d3f18345d9f = $(`<div id="html_cf0dcc5499374550bce52d3f18345d9f" style="width: 100.0%; height: 100.0%;">오봉산 어린이공원</div>`)[0];
+            popup_6a6acc6f3a26445cb0a3bcfba57c1e7a.setContent(html_cf0dcc5499374550bce52d3f18345d9f);
+        
+
+        marker_03b2460b25b64603aeed09d5c75d6b22.bindPopup(popup_6a6acc6f3a26445cb0a3bcfba57c1e7a)
+        ;
+
+        
+    
+    
+            var marker_1e9dc2e9ceb94fecbba980bfbce9df92 = L.marker(
+                [35.33524484, 129.0028656],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_fc3c45e891ba4396993dc03fb361ba15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f88ebfe3dbe4d1d93dc10b8b304864e = $(`<div id="html_7f88ebfe3dbe4d1d93dc10b8b304864e" style="width: 100.0%; height: 100.0%;">주산지 어린이공원</div>`)[0];
+            popup_fc3c45e891ba4396993dc03fb361ba15.setContent(html_7f88ebfe3dbe4d1d93dc10b8b304864e);
+        
+
+        marker_1e9dc2e9ceb94fecbba980bfbce9df92.bindPopup(popup_fc3c45e891ba4396993dc03fb361ba15)
+        ;
+
+        
+    
+    
+            var marker_e04f58b79500423c9982156ebda3a23a = L.marker(
+                [35.33249752, 129.0015557],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_df20e4020bc84f208e783ae3cd6a892a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7a40a3c12a24e5791c9f728d3bbc180 = $(`<div id="html_e7a40a3c12a24e5791c9f728d3bbc180" style="width: 100.0%; height: 100.0%;">범어 어린이공원</div>`)[0];
+            popup_df20e4020bc84f208e783ae3cd6a892a.setContent(html_e7a40a3c12a24e5791c9f728d3bbc180);
+        
+
+        marker_e04f58b79500423c9982156ebda3a23a.bindPopup(popup_df20e4020bc84f208e783ae3cd6a892a)
+        ;
+
+        
+    
+    
+            var marker_455057414ce447918c4145c91cd4cddf = L.marker(
+                [35.33180155, 128.9985223],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_76487e09bed34beabc731b1536dfee33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0cdb7da6c86f4b0da32fdd19488448e6 = $(`<div id="html_0cdb7da6c86f4b0da32fdd19488448e6" style="width: 100.0%; height: 100.0%;">신동중 어린이공원</div>`)[0];
+            popup_76487e09bed34beabc731b1536dfee33.setContent(html_0cdb7da6c86f4b0da32fdd19488448e6);
+        
+
+        marker_455057414ce447918c4145c91cd4cddf.bindPopup(popup_76487e09bed34beabc731b1536dfee33)
+        ;
+
+        
+    
+    
+            var marker_b3bf2d041a904508a01b19b8aded1122 = L.marker(
+                [35.32851778, 128.9977669],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_f74b06d869bf4a8eb66e3531b3ba5a5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24e77603e1064f4d8a41fdd505ebc0f3 = $(`<div id="html_24e77603e1064f4d8a41fdd505ebc0f3" style="width: 100.0%; height: 100.0%;">서남 어린이공원</div>`)[0];
+            popup_f74b06d869bf4a8eb66e3531b3ba5a5a.setContent(html_24e77603e1064f4d8a41fdd505ebc0f3);
+        
+
+        marker_b3bf2d041a904508a01b19b8aded1122.bindPopup(popup_f74b06d869bf4a8eb66e3531b3ba5a5a)
+        ;
+
+        
+    
+    
+            var marker_bfcc836d0e784fb3b82caa21cebdc027 = L.marker(
+                [35.30899413, 129.0257212],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_bc6571d6d5cb466da9950efadce9383c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d01c458c74b342bfbc215e2c7229eafa = $(`<div id="html_d01c458c74b342bfbc215e2c7229eafa" style="width: 100.0%; height: 100.0%;">금산 근린공원</div>`)[0];
+            popup_bc6571d6d5cb466da9950efadce9383c.setContent(html_d01c458c74b342bfbc215e2c7229eafa);
+        
+
+        marker_bfcc836d0e784fb3b82caa21cebdc027.bindPopup(popup_bc6571d6d5cb466da9950efadce9383c)
+        ;
+
+        
+    
+    
+            var marker_6510af2b1ede4b49afa7e7b1b5804d72 = L.marker(
+                [35.32065609, 129.0259347],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_c78b5f6c64d143608b5f9812820e294f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5503253015574405b54e8d2d67671b73 = $(`<div id="html_5503253015574405b54e8d2d67671b73" style="width: 100.0%; height: 100.0%;">석산 근린공원(2호 근린공원)</div>`)[0];
+            popup_c78b5f6c64d143608b5f9812820e294f.setContent(html_5503253015574405b54e8d2d67671b73);
+        
+
+        marker_6510af2b1ede4b49afa7e7b1b5804d72.bindPopup(popup_c78b5f6c64d143608b5f9812820e294f)
+        ;
+
+        
+    
+    
+            var marker_f2b3c819199743f3b63c97d0d056ad12 = L.marker(
+                [35.33272174, 129.0135699],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_e4e5eb9970624ec1a6078dc9799e9573 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63362eb2ab5c43df8b519e86bbc23a42 = $(`<div id="html_63362eb2ab5c43df8b519e86bbc23a42" style="width: 100.0%; height: 100.0%;">새싹 어린이공원</div>`)[0];
+            popup_e4e5eb9970624ec1a6078dc9799e9573.setContent(html_63362eb2ab5c43df8b519e86bbc23a42);
+        
+
+        marker_f2b3c819199743f3b63c97d0d056ad12.bindPopup(popup_e4e5eb9970624ec1a6078dc9799e9573)
+        ;
+
+        
+    
+    
+            var marker_e3b746b3a7c0457195d985ed2f823ea8 = L.marker(
+                [35.33053244, 129.0102208],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_806d43084e754fe9bd5311f257fb5e68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_537acef42e8b4fa1beb58757e885c527 = $(`<div id="html_537acef42e8b4fa1beb58757e885c527" style="width: 100.0%; height: 100.0%;">범어 황산 어린이공원</div>`)[0];
+            popup_806d43084e754fe9bd5311f257fb5e68.setContent(html_537acef42e8b4fa1beb58757e885c527);
+        
+
+        marker_e3b746b3a7c0457195d985ed2f823ea8.bindPopup(popup_806d43084e754fe9bd5311f257fb5e68)
+        ;
+
+        
+    
+    
+            var marker_016abda2d6054052831e6dd5de620937 = L.marker(
+                [35.32979969, 129.0169761],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_42360c00eb10429ea25c00d5045469f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f52840a55be4b829179bdcfcd80a285 = $(`<div id="html_6f52840a55be4b829179bdcfcd80a285" style="width: 100.0%; height: 100.0%;">성산 어린이공원</div>`)[0];
+            popup_42360c00eb10429ea25c00d5045469f7.setContent(html_6f52840a55be4b829179bdcfcd80a285);
+        
+
+        marker_016abda2d6054052831e6dd5de620937.bindPopup(popup_42360c00eb10429ea25c00d5045469f7)
+        ;
+
+        
+    
+    
+            var marker_52c42ed5d6c0480993cdf36512d704e1 = L.marker(
+                [35.31245328, 129.0227848],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_61b9e01f2fc84e899b1fa55dcf9b96fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_108d3b643c3645cb963d4fbe2220c3f2 = $(`<div id="html_108d3b643c3645cb963d4fbe2220c3f2" style="width: 100.0%; height: 100.0%;">금산 어린이공원</div>`)[0];
+            popup_61b9e01f2fc84e899b1fa55dcf9b96fb.setContent(html_108d3b643c3645cb963d4fbe2220c3f2);
+        
+
+        marker_52c42ed5d6c0480993cdf36512d704e1.bindPopup(popup_61b9e01f2fc84e899b1fa55dcf9b96fb)
+        ;
+
+        
+    
+    
+            var marker_940ac85b83ca45128adaf00c8f5b35e6 = L.marker(
+                [35.31214132, 129.0266187],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_507ee531bfeb454a8837969d0a2e5ba5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_229f70fd0e9e42b28e9ec80796a59731 = $(`<div id="html_229f70fd0e9e42b28e9ec80796a59731" style="width: 100.0%; height: 100.0%;">금산들 어린이공원</div>`)[0];
+            popup_507ee531bfeb454a8837969d0a2e5ba5.setContent(html_229f70fd0e9e42b28e9ec80796a59731);
+        
+
+        marker_940ac85b83ca45128adaf00c8f5b35e6.bindPopup(popup_507ee531bfeb454a8837969d0a2e5ba5)
+        ;
+
+        
+    
+    
+            var marker_1c8750fbd6be455b8672d5e550aeca34 = L.marker(
+                [35.31849628, 129.0233999],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_44852b88cbd7478fbc8e6992fe714b3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01a0070fc78d4f4a9b59230ab4dd0ef4 = $(`<div id="html_01a0070fc78d4f4a9b59230ab4dd0ef4" style="width: 100.0%; height: 100.0%;">석산들 어린이공원</div>`)[0];
+            popup_44852b88cbd7478fbc8e6992fe714b3a.setContent(html_01a0070fc78d4f4a9b59230ab4dd0ef4);
+        
+
+        marker_1c8750fbd6be455b8672d5e550aeca34.bindPopup(popup_44852b88cbd7478fbc8e6992fe714b3a)
+        ;
+
+        
+    
+    
+            var marker_de61ae250be741daa0b28d7ed1a620cb = L.marker(
+                [35.31807935, 129.0279146],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_ae1c60bc8cb44840b7cb931ae0402c3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_430bb2e1f5794953941feb9e7c05b55d = $(`<div id="html_430bb2e1f5794953941feb9e7c05b55d" style="width: 100.0%; height: 100.0%;">석금산 어린이공원</div>`)[0];
+            popup_ae1c60bc8cb44840b7cb931ae0402c3d.setContent(html_430bb2e1f5794953941feb9e7c05b55d);
+        
+
+        marker_de61ae250be741daa0b28d7ed1a620cb.bindPopup(popup_ae1c60bc8cb44840b7cb931ae0402c3d)
+        ;
+
+        
+    
+    
+            var marker_147a32a8c3e04824945c4b2078413b89 = L.marker(
+                [35.32343711, 129.0243091],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_aa2ff4d0fd044e00a7adf8d880fb0569 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4dac2f44326d4cfbb81595565b22a4c9 = $(`<div id="html_4dac2f44326d4cfbb81595565b22a4c9" style="width: 100.0%; height: 100.0%;">석산강변 어린이공원</div>`)[0];
+            popup_aa2ff4d0fd044e00a7adf8d880fb0569.setContent(html_4dac2f44326d4cfbb81595565b22a4c9);
+        
+
+        marker_147a32a8c3e04824945c4b2078413b89.bindPopup(popup_aa2ff4d0fd044e00a7adf8d880fb0569)
+        ;
+
+        
+    
+    
+            var marker_3a1294ecab074d9a94684e9fa1c95bd1 = L.marker(
+                [35.32762717, 129.0180707],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_3a59950b6d2e47a58a0bc02349542d10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41c89c37c7164ff3824f87454bf1f57d = $(`<div id="html_41c89c37c7164ff3824f87454bf1f57d" style="width: 100.0%; height: 100.0%;">음악분수 공원</div>`)[0];
+            popup_3a59950b6d2e47a58a0bc02349542d10.setContent(html_41c89c37c7164ff3824f87454bf1f57d);
+        
+
+        marker_3a1294ecab074d9a94684e9fa1c95bd1.bindPopup(popup_3a59950b6d2e47a58a0bc02349542d10)
+        ;
+
+        
+    
+    
+            var marker_fb05abe9bc9844a5a815e85a2c3f5f3e = L.marker(
+                [35.35628742, 129.0541565],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_fcf0ae80d7244bc4ade6b0c1a210cec3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9164d2e544141fca3db6e7e1ee74021 = $(`<div id="html_f9164d2e544141fca3db6e7e1ee74021" style="width: 100.0%; height: 100.0%;">북정9근린공원</div>`)[0];
+            popup_fcf0ae80d7244bc4ade6b0c1a210cec3.setContent(html_f9164d2e544141fca3db6e7e1ee74021);
+        
+
+        marker_fb05abe9bc9844a5a815e85a2c3f5f3e.bindPopup(popup_fcf0ae80d7244bc4ade6b0c1a210cec3)
+        ;
+
+        
+    
+    
+            var marker_2830a896d4b2466a9849b4586202020c = L.marker(
+                [35.37925316, 129.0217904],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_c10345be8dd54ceb86b92029836f26e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_476276b50683456ca53a793f213b6cdf = $(`<div id="html_476276b50683456ca53a793f213b6cdf" style="width: 100.0%; height: 100.0%;">어곡 근로자 근린공원</div>`)[0];
+            popup_c10345be8dd54ceb86b92029836f26e8.setContent(html_476276b50683456ca53a793f213b6cdf);
+        
+
+        marker_2830a896d4b2466a9849b4586202020c.bindPopup(popup_c10345be8dd54ceb86b92029836f26e8)
+        ;
+
+        
+    
+    
+            var marker_216b82f5371d4098b3bab623020d54f6 = L.marker(
+                [35.38085864, 129.0163296],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_0884c48f190c492ca4a2106f57d4d4a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd53ea04a9fc4a129dcdd815ed2e3408 = $(`<div id="html_fd53ea04a9fc4a129dcdd815ed2e3408" style="width: 100.0%; height: 100.0%;">어곡산업단지 근린공원</div>`)[0];
+            popup_0884c48f190c492ca4a2106f57d4d4a5.setContent(html_fd53ea04a9fc4a129dcdd815ed2e3408);
+        
+
+        marker_216b82f5371d4098b3bab623020d54f6.bindPopup(popup_0884c48f190c492ca4a2106f57d4d4a5)
+        ;
+
+        
+    
+    
+            var marker_bcd7116b3dd34ca1b34e21ad5cd0bcd7 = L.marker(
+                [35.3528516, 129.0366513],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_9042749824744f988cd5c2c5ad3d500e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a81530ce177140c7925925176d9ed75d = $(`<div id="html_a81530ce177140c7925925176d9ed75d" style="width: 100.0%; height: 100.0%;">신기11어린이공원</div>`)[0];
+            popup_9042749824744f988cd5c2c5ad3d500e.setContent(html_a81530ce177140c7925925176d9ed75d);
+        
+
+        marker_bcd7116b3dd34ca1b34e21ad5cd0bcd7.bindPopup(popup_9042749824744f988cd5c2c5ad3d500e)
+        ;
+
+        
+    
+    
+            var marker_2dcb20e110c448dc8968b90a7ab4b8e2 = L.marker(
+                [35.35577184, 129.0377229],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_2995582301aa495580a21c20ca5c5871 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_840351e1e6734a8bb69002bb9eda2dde = $(`<div id="html_840351e1e6734a8bb69002bb9eda2dde" style="width: 100.0%; height: 100.0%;">신기12어린이공원</div>`)[0];
+            popup_2995582301aa495580a21c20ca5c5871.setContent(html_840351e1e6734a8bb69002bb9eda2dde);
+        
+
+        marker_2dcb20e110c448dc8968b90a7ab4b8e2.bindPopup(popup_2995582301aa495580a21c20ca5c5871)
+        ;
+
+        
+    
+    
+            var marker_59376ad93249408dab37b98461e9993d = L.marker(
+                [35.33933695, 129.0168867],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_65456f271e9848bb970539fa3f603ae1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75c194e6357f4b0592b5ae42473a1883 = $(`<div id="html_75c194e6357f4b0592b5ae42473a1883" style="width: 100.0%; height: 100.0%;">잎새어린이공원</div>`)[0];
+            popup_65456f271e9848bb970539fa3f603ae1.setContent(html_75c194e6357f4b0592b5ae42473a1883);
+        
+
+        marker_59376ad93249408dab37b98461e9993d.bindPopup(popup_65456f271e9848bb970539fa3f603ae1)
+        ;
+
+        
+    
+    
+            var marker_b6f7cc631e244804a2f6e3300b948b7f = L.marker(
+                [35.38518762, 129.0171105],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_25af8189eda548a6924a1fd9230c2c6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3205110fe9441aeba9aa78ff7790ef2 = $(`<div id="html_c3205110fe9441aeba9aa78ff7790ef2" style="width: 100.0%; height: 100.0%;">어실어린이공원</div>`)[0];
+            popup_25af8189eda548a6924a1fd9230c2c6d.setContent(html_c3205110fe9441aeba9aa78ff7790ef2);
+        
+
+        marker_b6f7cc631e244804a2f6e3300b948b7f.bindPopup(popup_25af8189eda548a6924a1fd9230c2c6d)
+        ;
+
+        
+    
+    
+            var marker_bf079b98ab2041fe9c5b9ae1f8d1f47f = L.marker(
+                [35.32448521, 129.0165465],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_8b2940379a94455cb0c64a2b7c642d80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6efc498c37804d4f8735f86aefe95cc1 = $(`<div id="html_6efc498c37804d4f8735f86aefe95cc1" style="width: 100.0%; height: 100.0%;">남양산 어린이공원</div>`)[0];
+            popup_8b2940379a94455cb0c64a2b7c642d80.setContent(html_6efc498c37804d4f8735f86aefe95cc1);
+        
+
+        marker_bf079b98ab2041fe9c5b9ae1f8d1f47f.bindPopup(popup_8b2940379a94455cb0c64a2b7c642d80)
+        ;
+
+        
+    
+    
+            var marker_388e83b9fbed4c988f86ff69ad5eaee1 = L.marker(
+                [35.3041015, 128.9909572],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_aa3a651d7ab5486faa4b3b685e77602b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8552afa081f4f77a7b2476a99529a26 = $(`<div id="html_d8552afa081f4f77a7b2476a99529a26" style="width: 100.0%; height: 100.0%;">물금남부공원</div>`)[0];
+            popup_aa3a651d7ab5486faa4b3b685e77602b.setContent(html_d8552afa081f4f77a7b2476a99529a26);
+        
+
+        marker_388e83b9fbed4c988f86ff69ad5eaee1.bindPopup(popup_aa3a651d7ab5486faa4b3b685e77602b)
+        ;
+
+        
+    
+    
+            var marker_7ea0cff803d345caa82d72704dbfe075 = L.marker(
+                [35.31432934, 128.9956789],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_a56b4bda826a4085a9e8d91ab34e5f00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f355eebf3ef247b2b2f388e5262acc38 = $(`<div id="html_f355eebf3ef247b2b2f388e5262acc38" style="width: 100.0%; height: 100.0%;">신기공원</div>`)[0];
+            popup_a56b4bda826a4085a9e8d91ab34e5f00.setContent(html_f355eebf3ef247b2b2f388e5262acc38);
+        
+
+        marker_7ea0cff803d345caa82d72704dbfe075.bindPopup(popup_a56b4bda826a4085a9e8d91ab34e5f00)
+        ;
+
+        
+    
+    
+            var marker_4bef9f5e94274fd494d157e00f682864 = L.marker(
+                [35.30778173, 129.0102234],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_1cfce2030e224451ab150ce7694c5d2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fcb6dba3b0d47a1a9aaa76170110d41 = $(`<div id="html_7fcb6dba3b0d47a1a9aaa76170110d41" style="width: 100.0%; height: 100.0%;">10호 근린공원(10-A)</div>`)[0];
+            popup_1cfce2030e224451ab150ce7694c5d2e.setContent(html_7fcb6dba3b0d47a1a9aaa76170110d41);
+        
+
+        marker_4bef9f5e94274fd494d157e00f682864.bindPopup(popup_1cfce2030e224451ab150ce7694c5d2e)
+        ;
+
+        
+    
+    
+            var marker_f78dc29813ba4d978ce74b7cf3c3bacd = L.marker(
+                [35.3124576, 129.0072575],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_87b721a8fa4949c9ba36d28ce06e9d34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fdc020751870480ba403ec28507a757c = $(`<div id="html_fdc020751870480ba403ec28507a757c" style="width: 100.0%; height: 100.0%;">메기들공원(14호 근린공원)</div>`)[0];
+            popup_87b721a8fa4949c9ba36d28ce06e9d34.setContent(html_fdc020751870480ba403ec28507a757c);
+        
+
+        marker_f78dc29813ba4d978ce74b7cf3c3bacd.bindPopup(popup_87b721a8fa4949c9ba36d28ce06e9d34)
+        ;
+
+        
+    
+    
+            var marker_e0bcc354eacf4dab8dce749bdefd3573 = L.marker(
+                [35.31629249, 129.0089327],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_932730d0ecf54bb28209a79e3636334d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c47a953e2d3444098993f0b932107580 = $(`<div id="html_c47a953e2d3444098993f0b932107580" style="width: 100.0%; height: 100.0%;">야리공원</div>`)[0];
+            popup_932730d0ecf54bb28209a79e3636334d.setContent(html_c47a953e2d3444098993f0b932107580);
+        
+
+        marker_e0bcc354eacf4dab8dce749bdefd3573.bindPopup(popup_932730d0ecf54bb28209a79e3636334d)
+        ;
+
+        
+    
+    
+            var marker_529db76f6f0f4f8497260e50c320751a = L.marker(
+                [35.32041323, 128.9968203],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_13552aa82bf44e33aaaccebfc30ecc77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b962f83c69246ed8503ae482454726c = $(`<div id="html_6b962f83c69246ed8503ae482454726c" style="width: 100.0%; height: 100.0%;">통새미공원</div>`)[0];
+            popup_13552aa82bf44e33aaaccebfc30ecc77.setContent(html_6b962f83c69246ed8503ae482454726c);
+        
+
+        marker_529db76f6f0f4f8497260e50c320751a.bindPopup(popup_13552aa82bf44e33aaaccebfc30ecc77)
+        ;
+
+        
+    
+    
+            var marker_16208c5edff84811872908d2dfd100a5 = L.marker(
+                [35.31253776, 128.998692],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_6b18d317164d4db3a8af18b727246d5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e00d29c351948f5bc3455b583087cc3 = $(`<div id="html_9e00d29c351948f5bc3455b583087cc3" style="width: 100.0%; height: 100.0%;">새실공원</div>`)[0];
+            popup_6b18d317164d4db3a8af18b727246d5f.setContent(html_9e00d29c351948f5bc3455b583087cc3);
+        
+
+        marker_16208c5edff84811872908d2dfd100a5.bindPopup(popup_6b18d317164d4db3a8af18b727246d5f)
+        ;
+
+        
+    
+    
+            var marker_c8ed6aec6d66400cadc19734f4364e35 = L.marker(
+                [35.30990741, 128.9908301],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_287a9c5404aa405cb10ee91bd116d5d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1128dcc2bedf4df3a6e9e258dffecce2 = $(`<div id="html_1128dcc2bedf4df3a6e9e258dffecce2" style="width: 100.0%; height: 100.0%;">물금동부공원</div>`)[0];
+            popup_287a9c5404aa405cb10ee91bd116d5d3.setContent(html_1128dcc2bedf4df3a6e9e258dffecce2);
+        
+
+        marker_c8ed6aec6d66400cadc19734f4364e35.bindPopup(popup_287a9c5404aa405cb10ee91bd116d5d3)
+        ;
+
+        
+    
+    
+            var marker_a39cee7e303c4ae98bd9b56ca7e41aeb = L.marker(
+                [35.30716813, 128.9896201],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_e4898b2c6a0844abb5f9d78972934a14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_167cbf8b643248d1a466181f080a3733 = $(`<div id="html_167cbf8b643248d1a466181f080a3733" style="width: 100.0%; height: 100.0%;">물금중부공원</div>`)[0];
+            popup_e4898b2c6a0844abb5f9d78972934a14.setContent(html_167cbf8b643248d1a466181f080a3733);
+        
+
+        marker_a39cee7e303c4ae98bd9b56ca7e41aeb.bindPopup(popup_e4898b2c6a0844abb5f9d78972934a14)
+        ;
+
+        
+    
+    
+            var marker_b5e0352789344b6abe3a454347d1158d = L.marker(
+                [35.33404808, 129.0209013],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_e2a478a4f22947258a391839cd75d9a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57334372b5f34dd3a9239459173f02bf = $(`<div id="html_57334372b5f34dd3a9239459173f02bf" style="width: 100.0%; height: 100.0%;">디자인공원(7호근린)</div>`)[0];
+            popup_e2a478a4f22947258a391839cd75d9a6.setContent(html_57334372b5f34dd3a9239459173f02bf);
+        
+
+        marker_b5e0352789344b6abe3a454347d1158d.bindPopup(popup_e2a478a4f22947258a391839cd75d9a6)
+        ;
+
+        
+    
+    
+            var marker_b7a4a6aa78374aca9094b8cf2449da2c = L.marker(
+                [35.31132558, 129.0122000934],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_fd1291688abf4ae9bac9969661e6ec50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe01de73a7e940da8046b652c3ec63d1 = $(`<div id="html_fe01de73a7e940da8046b652c3ec63d1" style="width: 100.0%; height: 100.0%;">8호 근린공원(8-A)</div>`)[0];
+            popup_fd1291688abf4ae9bac9969661e6ec50.setContent(html_fe01de73a7e940da8046b652c3ec63d1);
+        
+
+        marker_b7a4a6aa78374aca9094b8cf2449da2c.bindPopup(popup_fd1291688abf4ae9bac9969661e6ec50)
+        ;
+
+        
+    
+    
+            var marker_59e05f889407452f8317b6dd8fec3133 = L.marker(
+                [35.30941038, 129.0019084],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_4fcb70efd48f4e9d9990285b37f98ccd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3eadfddd46914a898474d92ab4ca5ef8 = $(`<div id="html_3eadfddd46914a898474d92ab4ca5ef8" style="width: 100.0%; height: 100.0%;">구두공원</div>`)[0];
+            popup_4fcb70efd48f4e9d9990285b37f98ccd.setContent(html_3eadfddd46914a898474d92ab4ca5ef8);
+        
+
+        marker_59e05f889407452f8317b6dd8fec3133.bindPopup(popup_4fcb70efd48f4e9d9990285b37f98ccd)
+        ;
+
+        
+    
+    
+            var marker_fd2e25733a3e4f479495514409b24f78 = L.marker(
+                [35.30799357, 129.0064433],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_fedb0bfc0f754a0dba5cef3c3a703600 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce08005534a44d48b7e15bd039d895b8 = $(`<div id="html_ce08005534a44d48b7e15bd039d895b8" style="width: 100.0%; height: 100.0%;">오래뜰어린이공원</div>`)[0];
+            popup_fedb0bfc0f754a0dba5cef3c3a703600.setContent(html_ce08005534a44d48b7e15bd039d895b8);
+        
+
+        marker_fd2e25733a3e4f479495514409b24f78.bindPopup(popup_fedb0bfc0f754a0dba5cef3c3a703600)
+        ;
+
+        
+    
+    
+            var marker_60a9f3285f264e689aa4466bd347c965 = L.marker(
+                [35.30608084, 129.0044953],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_c2eaf3901afa4f2d9bf50804294f36d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f051c2775cc4d2cbaf3d4c71d774725 = $(`<div id="html_3f051c2775cc4d2cbaf3d4c71d774725" style="width: 100.0%; height: 100.0%;">새솔어린이공원</div>`)[0];
+            popup_c2eaf3901afa4f2d9bf50804294f36d3.setContent(html_3f051c2775cc4d2cbaf3d4c71d774725);
+        
+
+        marker_60a9f3285f264e689aa4466bd347c965.bindPopup(popup_c2eaf3901afa4f2d9bf50804294f36d3)
+        ;
+
+        
+    
+    
+            var marker_31fbbc8c3d6247f1a7b79d5b053533c1 = L.marker(
+                [35.30713334, 129.0079941],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_8afeda40f21b4123b9c5987d8285a83d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90b5699ed5204562b69303bd42fed228 = $(`<div id="html_90b5699ed5204562b69303bd42fed228" style="width: 100.0%; height: 100.0%;">다솜어린이공원</div>`)[0];
+            popup_8afeda40f21b4123b9c5987d8285a83d.setContent(html_90b5699ed5204562b69303bd42fed228);
+        
+
+        marker_31fbbc8c3d6247f1a7b79d5b053533c1.bindPopup(popup_8afeda40f21b4123b9c5987d8285a83d)
+        ;
+
+        
+    
+    
+            var marker_68af13aad3eb4077b02a81923a84d73f = L.marker(
+                [35.30065951, 129.0264185],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_e3e3b2717c58413fbca92a3ed0a6f45a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a20dfc93a5f4bc4a070b4c43e5cd5a8 = $(`<div id="html_8a20dfc93a5f4bc4a070b4c43e5cd5a8" style="width: 100.0%; height: 100.0%;">목련어린이공원</div>`)[0];
+            popup_e3e3b2717c58413fbca92a3ed0a6f45a.setContent(html_8a20dfc93a5f4bc4a070b4c43e5cd5a8);
+        
+
+        marker_68af13aad3eb4077b02a81923a84d73f.bindPopup(popup_e3e3b2717c58413fbca92a3ed0a6f45a)
+        ;
+
+        
+    
+    
+            var marker_c11dcb3fd0e847849848e360db4fdc65 = L.marker(
+                [35.44591268, 129.0822787],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_b13d9736f0f943d1be1ac8ad6556ac61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_316a843d42c04784a8a2d633de2c6be5 = $(`<div id="html_316a843d42c04784a8a2d633de2c6be5" style="width: 100.0%; height: 100.0%;">어린이공원(355)</div>`)[0];
+            popup_b13d9736f0f943d1be1ac8ad6556ac61.setContent(html_316a843d42c04784a8a2d633de2c6be5);
+        
+
+        marker_c11dcb3fd0e847849848e360db4fdc65.bindPopup(popup_b13d9736f0f943d1be1ac8ad6556ac61)
+        ;
+
+        
+    
+    
+            var marker_47b023018ec24f938ccbe200c339a741 = L.marker(
+                [35.33678168, 129.0163377],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_13b756038fda4223971aca587a1b2cd6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6736b010912f4e459c09e4f741965e00 = $(`<div id="html_6736b010912f4e459c09e4f741965e00" style="width: 100.0%; height: 100.0%;">동 새들천 공원(5-A 근린공원)</div>`)[0];
+            popup_13b756038fda4223971aca587a1b2cd6.setContent(html_6736b010912f4e459c09e4f741965e00);
+        
+
+        marker_47b023018ec24f938ccbe200c339a741.bindPopup(popup_13b756038fda4223971aca587a1b2cd6)
+        ;
+
+        
+    
+    
+            var marker_dd6dfb86a25542ada1dc6296b7a5e355 = L.marker(
+                [35.33717429, 129.0210836],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_2367428d774d4fc895eea621b920d620 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc924acbe4a742bcb51559191e5f73ed = $(`<div id="html_bc924acbe4a742bcb51559191e5f73ed" style="width: 100.0%; height: 100.0%;">워터파크(5-B 근린공원)</div>`)[0];
+            popup_2367428d774d4fc895eea621b920d620.setContent(html_bc924acbe4a742bcb51559191e5f73ed);
+        
+
+        marker_dd6dfb86a25542ada1dc6296b7a5e355.bindPopup(popup_2367428d774d4fc895eea621b920d620)
+        ;
+
+        
+    
+    
+            var marker_c7d10fee2e234ab1969114df8c7cde36 = L.marker(
+                [35.33403563, 129.0116724],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_91cd2b4264264a3fa3468ae7f5ebfdd1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cdc8889e62f467db4e69891a7881c06 = $(`<div id="html_1cdc8889e62f467db4e69891a7881c06" style="width: 100.0%; height: 100.0%;">중 새들천 공원(5-C 근린공원)</div>`)[0];
+            popup_91cd2b4264264a3fa3468ae7f5ebfdd1.setContent(html_1cdc8889e62f467db4e69891a7881c06);
+        
+
+        marker_c7d10fee2e234ab1969114df8c7cde36.bindPopup(popup_91cd2b4264264a3fa3468ae7f5ebfdd1)
+        ;
+
+        
+    
+    
+            var marker_ddd0249c18d6496690c5d33c44de223b = L.marker(
+                [35.33138469, 129.0085485],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_c86f674223d648699c05ab68fefbf38e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26e5f8a4a6354b6f8652a28bf48c3bf2 = $(`<div id="html_26e5f8a4a6354b6f8652a28bf48c3bf2" style="width: 100.0%; height: 100.0%;">서 새들천 공원(5-D 근린공원)</div>`)[0];
+            popup_c86f674223d648699c05ab68fefbf38e.setContent(html_26e5f8a4a6354b6f8652a28bf48c3bf2);
+        
+
+        marker_ddd0249c18d6496690c5d33c44de223b.bindPopup(popup_c86f674223d648699c05ab68fefbf38e)
+        ;
+
+        
+    
+    
+            var marker_7c47a7ddf2d047f186d0af5069a5f3c1 = L.marker(
+                [35.30596739, 129.009453],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_e499519ae56046b4bb8e416baa72d69d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce80ae2189784222bc297d8086c08e94 = $(`<div id="html_ce80ae2189784222bc297d8086c08e94" style="width: 100.0%; height: 100.0%;">10호 근린공원(10-B)</div>`)[0];
+            popup_e499519ae56046b4bb8e416baa72d69d.setContent(html_ce80ae2189784222bc297d8086c08e94);
+        
+
+        marker_7c47a7ddf2d047f186d0af5069a5f3c1.bindPopup(popup_e499519ae56046b4bb8e416baa72d69d)
+        ;
+
+        
+    
+    
+            var marker_dfbf20816c4147038df1a450590cad67 = L.marker(
+                [35.31823686, 129.0146206],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_89d47a3f8ef3463f9650a07a6312e408 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f5a9ea157bf4c50aa8c457627c39888 = $(`<div id="html_4f5a9ea157bf4c50aa8c457627c39888" style="width: 100.0%; height: 100.0%;">8호 근린공원(8-B)</div>`)[0];
+            popup_89d47a3f8ef3463f9650a07a6312e408.setContent(html_4f5a9ea157bf4c50aa8c457627c39888);
+        
+
+        marker_dfbf20816c4147038df1a450590cad67.bindPopup(popup_89d47a3f8ef3463f9650a07a6312e408)
+        ;
+
+        
+    
+    
+            var marker_97d7935269d3460ea22a0fcbce3c8b32 = L.marker(
+                [35.31333572, 129.012195],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_6887131a8b804cd281c58c53ec685259 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35ebcd12679e42d8b18efbae4233e8c5 = $(`<div id="html_35ebcd12679e42d8b18efbae4233e8c5" style="width: 100.0%; height: 100.0%;">8호 근린공원(8-C)</div>`)[0];
+            popup_6887131a8b804cd281c58c53ec685259.setContent(html_35ebcd12679e42d8b18efbae4233e8c5);
+        
+
+        marker_97d7935269d3460ea22a0fcbce3c8b32.bindPopup(popup_6887131a8b804cd281c58c53ec685259)
+        ;
+
+        
+    
+    
+            var marker_d850c3a0fb02422eb8312f524cd20965 = L.marker(
+                [35.30414633, 129.0084078],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_63bbaf23242c472eb270d0418f6f842c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8286f9af37c34d668ae2d1d38af19252 = $(`<div id="html_8286f9af37c34d668ae2d1d38af19252" style="width: 100.0%; height: 100.0%;">가람뜰어린이공원</div>`)[0];
+            popup_63bbaf23242c472eb270d0418f6f842c.setContent(html_8286f9af37c34d668ae2d1d38af19252);
+        
+
+        marker_d850c3a0fb02422eb8312f524cd20965.bindPopup(popup_63bbaf23242c472eb270d0418f6f842c)
+        ;
+
+        
+    
+    
+            var marker_d6f871a8911142afa5c4d175e8dfbea6 = L.marker(
+                [35.37413963, 129.0648547],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_e6fd0b37c16142fd98fe0d91e38c17d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8b0893105794a1a8d5a544ad6e41b06 = $(`<div id="html_f8b0893105794a1a8d5a544ad6e41b06" style="width: 100.0%; height: 100.0%;">산막근린공원</div>`)[0];
+            popup_e6fd0b37c16142fd98fe0d91e38c17d8.setContent(html_f8b0893105794a1a8d5a544ad6e41b06);
+        
+
+        marker_d6f871a8911142afa5c4d175e8dfbea6.bindPopup(popup_e6fd0b37c16142fd98fe0d91e38c17d8)
+        ;
+
+        
+    
+    
+            var marker_97a23af0c3e04c0ab432cde922607c9a = L.marker(
+                [35.36648875, 129.0677252],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_6264fd0a151945f5b62b43ce97e5f7fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82cca70d76ef4c139e778b1abcff26a1 = $(`<div id="html_82cca70d76ef4c139e778b1abcff26a1" style="width: 100.0%; height: 100.0%;">범실근린공원</div>`)[0];
+            popup_6264fd0a151945f5b62b43ce97e5f7fe.setContent(html_82cca70d76ef4c139e778b1abcff26a1);
+        
+
+        marker_97a23af0c3e04c0ab432cde922607c9a.bindPopup(popup_6264fd0a151945f5b62b43ce97e5f7fe)
+        ;
+
+        
+    
+    
+            var marker_ef442568bb934d24aa7006a375e20c00 = L.marker(
+                [35.39035786, 129.0594214],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_ee179973358d45d69895ff096245c000 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9111b28aee7b4a0b84e57ccd824e57d0 = $(`<div id="html_9111b28aee7b4a0b84e57ccd824e57d0" style="width: 100.0%; height: 100.0%;">소공원<50></div>`)[0];
+            popup_ee179973358d45d69895ff096245c000.setContent(html_9111b28aee7b4a0b84e57ccd824e57d0);
+        
+
+        marker_ef442568bb934d24aa7006a375e20c00.bindPopup(popup_ee179973358d45d69895ff096245c000)
+        ;
+
+        
+    
+    
+            var marker_498b4b353ed84c739ca210793112aa1c = L.marker(
+                [35.30919506, 128.9820354],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_c9342c9021ea47599ec9a5f8b104a522 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34066f386f1e4a1ba9d44c9ba29e1694 = $(`<div id="html_34066f386f1e4a1ba9d44c9ba29e1694" style="width: 100.0%; height: 100.0%;">서부마을 소공원</div>`)[0];
+            popup_c9342c9021ea47599ec9a5f8b104a522.setContent(html_34066f386f1e4a1ba9d44c9ba29e1694);
+        
+
+        marker_498b4b353ed84c739ca210793112aa1c.bindPopup(popup_c9342c9021ea47599ec9a5f8b104a522)
+        ;
+
+        
+    
+    
+            var marker_eb9edb3e5f2c4a64bb5dc7bbac19d58f = L.marker(
+                [35.3775096, 129.0265007],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_ef06e1d0a5e8441e91d35c66035afa23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a00087e564444c75a1967db61e6d26da = $(`<div id="html_a00087e564444c75a1967db61e6d26da" style="width: 100.0%; height: 100.0%;">어곡주민공원</div>`)[0];
+            popup_ef06e1d0a5e8441e91d35c66035afa23.setContent(html_a00087e564444c75a1967db61e6d26da);
+        
+
+        marker_eb9edb3e5f2c4a64bb5dc7bbac19d58f.bindPopup(popup_ef06e1d0a5e8441e91d35c66035afa23)
+        ;
+
+        
+    
+    
+            var marker_9746ead5797043c8873476de22a5a568 = L.marker(
+                [35.30528545, 129.0101593],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_4a54dabdeab74a7f86379ea17eb37209 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d137e81f5bfa437eb50be7b4d75d3de5 = $(`<div id="html_d137e81f5bfa437eb50be7b4d75d3de5" style="width: 100.0%; height: 100.0%;">10호 근린공원(10-C)</div>`)[0];
+            popup_4a54dabdeab74a7f86379ea17eb37209.setContent(html_d137e81f5bfa437eb50be7b4d75d3de5);
+        
+
+        marker_9746ead5797043c8873476de22a5a568.bindPopup(popup_4a54dabdeab74a7f86379ea17eb37209)
+        ;
+
+        
+    
+    
+            var marker_425a454badd344248137321e3ebd4c64 = L.marker(
+                [35.484447, 129.088539],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_14576370e38346ed93c336a37444a6d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0eadc75c217f450fb1885a9f53317bc7 = $(`<div id="html_0eadc75c217f450fb1885a9f53317bc7" style="width: 100.0%; height: 100.0%;">초산어린이공원</div>`)[0];
+            popup_14576370e38346ed93c336a37444a6d2.setContent(html_0eadc75c217f450fb1885a9f53317bc7);
+        
+
+        marker_425a454badd344248137321e3ebd4c64.bindPopup(popup_14576370e38346ed93c336a37444a6d2)
+        ;
+
+        
+    
+    
+            var marker_e7ff70276e534935ab6d027a19c1c020 = L.marker(
+                [35.411359, 129.071906],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_be0265b74b024adab8c4a8da539ced62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f19369e1b8c43eda2333475bc07e67c = $(`<div id="html_3f19369e1b8c43eda2333475bc07e67c" style="width: 100.0%; height: 100.0%;">대바웃골</div>`)[0];
+            popup_be0265b74b024adab8c4a8da539ced62.setContent(html_3f19369e1b8c43eda2333475bc07e67c);
+        
+
+        marker_e7ff70276e534935ab6d027a19c1c020.bindPopup(popup_be0265b74b024adab8c4a8da539ced62)
+        ;
+
+        
+    
+    
+            var marker_6afccfee9c2247678d126897530aa594 = L.marker(
+                [35.411359, 129.071906],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_ebcdb2859e304267a37a4a3264cd21a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_944119829bc647139ffae741a6570623 = $(`<div id="html_944119829bc647139ffae741a6570623" style="width: 100.0%; height: 100.0%;">팥밭골</div>`)[0];
+            popup_ebcdb2859e304267a37a4a3264cd21a5.setContent(html_944119829bc647139ffae741a6570623);
+        
+
+        marker_6afccfee9c2247678d126897530aa594.bindPopup(popup_ebcdb2859e304267a37a4a3264cd21a5)
+        ;
+
+        
+    
+    
+            var marker_696fb493caec4cd3a08b9b6d31ef317a = L.marker(
+                [35.413667, 129.070548],
+                {}
+            ).addTo(map_6cfe87a79df2457f92a6aacf51353fed);
+        
+    
+        var popup_996651932b2b49bf847dec322cb75573 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc78eb9a8dd34a6a9d484f4a6368cb14 = $(`<div id="html_dc78eb9a8dd34a6a9d484f4a6368cb14" style="width: 100.0%; height: 100.0%;">봉수대근린공원</div>`)[0];
+            popup_996651932b2b49bf847dec322cb75573.setContent(html_dc78eb9a8dd34a6a9d484f4a6368cb14);
+        
+
+        marker_696fb493caec4cd3a08b9b6d31ef317a.bindPopup(popup_996651932b2b49bf847dec322cb75573)
+        ;
+
+        
+    
+</script>
